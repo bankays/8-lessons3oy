@@ -1,0 +1,62 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero3 {
+  height: 1100px;
+  background-color: $color-five;
+}
+.p4 {
+  color: $color-forth;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 128px;
+}
+.p5 {
+  max-width: 520px;
+  color: $color-forth;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin: 10px 0px 0px 340px;
+  text-align: center;
+}
+.card {
+  width: 355px;
+  height: 270px;
+  background-color: $color-first;
+}
+.ob3 {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.ob4 {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.p7 {
+  padding: 38px 0px 0px 48px;
+  color: $color-forth;
+}
+.p8 {
+  font-size: 15px;
+  padding: 20px 0px 0px 48px;
+  max-width: 324.079px;
+  color: $color-forth;
+}
+.card img {
+  padding: 40px 0px 0px 48px;
+}
+.ob4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}

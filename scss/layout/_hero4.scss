@@ -1,0 +1,37 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero4 {
+  height: 500px;
+}
+.p9 {
+  max-width: 307px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  color: $color-forth;
+}
+.ob5 {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p10 {
+  max-width: 327px;
+  padding-top: 20px;
+  color: $color-forth;
+}
+.p11 {
+  max-width: 703px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  color: $color-forth;
+}
+.r3 img {
+  padding-top: 20px;
+}

@@ -1,0 +1,23 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero2 {
+  height: 700px;
+  background-color: $color-first;
+}
+.hero2 .p3 {
+  width: 467px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  color: $color-forth;
+}
+.ob2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l2 img {
+  max-width: 750px;
+}

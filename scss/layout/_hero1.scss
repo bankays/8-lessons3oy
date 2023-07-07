@@ -1,0 +1,71 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero1 {
+  height: 700px;
+  background-color: #1c1e53;
+  margin: 65px 0px 0px 0px;
+}
+
+#p1 {
+  max-width: 502px;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  padding: 126px 0px 0px 0px;
+  color: $color-first;
+}
+.p2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: $color-first;
+  max-width: 450px;
+}
+.btn1 {
+  color: $color-second;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  background-color: $color-third;
+  border-radius: 41px;
+  display: inline-flex;
+  padding: 3px 6px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin: 25px 0px 0px 0px;
+}
+.btn2 {
+  color: $color-first;
+  background-color: transparent;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+
+  border-radius: 41px;
+  display: inline-flex;
+  padding: 3px 6px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.ob1 {
+  display: flex;
+  justify-content: space-between;
+}
+.r1 img {
+  width: 100%;
+}
+.r1 {
+  display: flex;
+  align-items: center;
+  padding-top: 140px;
+}

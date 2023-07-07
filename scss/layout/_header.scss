@@ -1,0 +1,63 @@
+@use "../base" as *;
+@use "../components" as *;
+@use "../base/media-query" as *;
+
+header {
+  background-color: #1c1e53;
+}
+// header nav {
+//   display: flex;
+//   justify-content: center;
+//   justify-content: space-between;
+// }
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 67px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  z-index: 99;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.nav-link {
+  color: var(--secondary-text, #525560);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #bbbbcb;
+}
+header .b1 {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  width: 100px;
+  height: 35px;
+  color: var(--white, #fff);
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.menu-btn {
+  background: transparent;
+}
+.menu {
+  display: none;
+}

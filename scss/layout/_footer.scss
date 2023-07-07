@@ -1,0 +1,73 @@
+@use "../base" as *;
+@use "../components" as *;
+.hero5 {
+  height: 500px;
+  background: $color-six;
+}
+.p12 {
+  max-width: 300px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: $color-first;
+  padding-top: 20px;
+}
+.ob6 {
+  padding-top: 106px;
+}
+.s {
+  width: 400px;
+  height: 85px;
+  margin: 30px 0px 0px 0px;
+  background-color: $color-sven;
+}
+.sp {
+  margin: 20px 0px 0px 180px;
+  position: absolute;
+}
+.dv {
+  margin: 20px 0px 0px 10px;
+  position: absolute;
+}
+.pf {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: $color-forth;
+}
+.pf1 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-forth;
+}
+.pp {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  color: $color-five;
+}
+.pp2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-five;
+  max-width: 399px;
+}
+.ob6 {
+  display: flex;
+  justify-content: space-between;
+}
+.r4 img {
+  padding-top: 20px;
+}
